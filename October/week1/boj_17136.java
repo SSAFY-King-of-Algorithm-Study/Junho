@@ -49,10 +49,10 @@ public class boj_17136 {
         System.out.println(result == Integer.MAX_VALUE ? -1 : result);
     }
 
-    private static boolean check(int count, int remain, List<Pos> cells, int[][] board) {
+    private static void check(int count, int remain, List<Pos> cells, int[][] board) {
         if (remain == 0) {
             result = Math.min(result, count);
-            return true;
+            return;
         }
 
         for (Pos cell : cells) {
@@ -70,10 +70,10 @@ public class boj_17136 {
                     papers[size]++;
                 }
             }
-            return false;   // 그 칸에 붙일 수 있는게 없다는 것이므로 이전 상황으로 돌아가야한다.
+            return;   // 그 칸에 붙일 수 있는게 없다는 것이므로 이전 상황으로 돌아가야한다.
         }
 
-        return false;
+        return;
     }
 
     private static void putPaper(int row, int col, int size, int[][] board) {
