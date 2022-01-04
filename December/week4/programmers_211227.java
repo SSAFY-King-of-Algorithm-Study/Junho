@@ -1,7 +1,9 @@
+package GroupStudy.December.week4;
+
 import java.util.*;
 // 3차원 방문 배열 사용: [방향][행][열]
 // 0:동 1:남 2:서 3:북
-class Solution {
+class programmers_211227 {
     static int[] drow = {0, 1, 0, -1};
     static int[] dcol = {1, 0, -1, 0};
     

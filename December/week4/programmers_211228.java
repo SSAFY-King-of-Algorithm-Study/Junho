@@ -1,4 +1,6 @@
-class Solution {
+package GroupStudy.December.week4;
+
+class programmers_211228 {
     public int solution(int n, int[][] wires) {
         int answer = 10000000;
         

@@ -1,7 +1,9 @@
+package GroupStudy.December.week4;
+
 import java.util.*;
 
 // set 사용해서 중복처리
-class Solution {
+class programmers_211230 {
     public int[] solution(int n, String[] words) {
         int[] answer = {0,0};
         
